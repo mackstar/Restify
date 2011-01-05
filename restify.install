@@ -1,0 +1,14 @@
+<?php
+// $Id$
+
+/**
+ * Import new translations.
+ */
+function rest_update() {
+  $ret = array();
+  if (module_exists('locale')) {
+    locale_system_update(array('takara'));
+    $ret[] = array('success' => TRUE, 'query' => 'New translations were imported.');
+  } 
+  return $ret;
+}

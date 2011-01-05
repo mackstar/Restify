@@ -1,0 +1,43 @@
+<?php
+// $Id$
+
+/**
+ * Autoloading of dir includes
+ */
+$load_folders = array('classes', 'includes');
+
+foreach ($load_folders as $load_folder) {
+  if ($handle = opendir(dirname(__FILE__).'/'.$load_folder.'/')) {
+    while (false !== ($file = readdir($handle))) {
+      if (substr($file, 0, 1)!='.') {
+        require_once(dirname(__FILE__).'/'.$load_folder.'/'.$file);
+      }  
+    }
+    closedir($handle);
+  }
+}
+
+function restify_breadcrumb($array) {
+  global $tss_breadcrumbs;
+  $breadies = array();
+  foreach ($array as $val) {
+    if (is_object($val)) {
+      $breadies[]=l($val->label, $val->path);
+    }
+    else {
+      $breadies[]=$val;
+    }
+  }
+  $tss_breadcrumbs = $breadies;
+}
+
+function restify_rest_response_error($result) {
+  if (strlen($result)==0) {
+    return TRUE;
+  }
+  if (strstr($rest->response_header, '500')) {
+    drupal_set_message(t('There was a server error'), 'error');
+    return TRUE;
+  }
+  return FALSE;
+}

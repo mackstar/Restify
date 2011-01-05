@@ -1,0 +1,5 @@
+; $Id$
+name = Restify API Client
+description = Allows you to use the Restify API system
+package = Restify
+core = 6.x

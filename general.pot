@@ -1,0 +1,308 @@
+# $Id$
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  takara.module: n/a
+#  includes/json.inc: n/a
+#  takara.install: n/a
+#  takara.info: n/a
+#  includes/blocks.inc: n/a
+#  includes/detail.inc: n/a
+#  themes/block/bbs_list.tpl.php: n/a
+#  includes/form_alter.inc: n/a
+#  includes/form_elements.inc: n/a
+#  includes/forms.inc: n/a
+#  includes/list.inc: n/a
+#  themes/block/cart_costs.tpl.php: n/a
+#  themes/block/left_search.tpl.php: n/a
+#  themes/block/main_categories_menu.tpl.php: n/a
+#  themes/block/pagination.tpl.php: n/a
+#  themes/detail/complete.tpl.php: n/a
+#  themes/detail/form_options.tpl.php: n/a
+#  themes/detail/members.tpl.php: n/a
+#  themes/elements/costs_table.tpl.php: n/a
+#  themes/list/cart.tpl.php: n/a
+#  themes/list/search.tpl.php: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2010-08-19 16:11+0900\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: takara.module:49 includes/json.inc:19
+msgid "Couldn't connect to the data source"
+msgstr ""
+
+#: takara.module:53
+msgid "There was a server error"
+msgstr ""
+
+#: takara.install:9
+msgid "Welcome to my website"
+msgstr ""
+
+#: takara.install:10
+msgid "This is the body　please edit."
+msgstr ""
+
+#: takara.info:0
+msgid "Takara Shop System"
+msgstr ""
+
+#: takara.info:0
+msgid "Allows you to use the Takara API shopping system"
+msgstr ""
+
+#: takara.info:0
+msgid "Takara Modules"
+msgstr ""
+
+#: includes/blocks.inc:10
+msgid "Header Message"
+msgstr ""
+
+#: includes/blocks.inc:14
+msgid "Header Cart"
+msgstr ""
+
+#: includes/blocks.inc:20
+msgid "Main Category Menu"
+msgstr ""
+
+#: includes/blocks.inc:27
+msgid "Left Search"
+msgstr ""
+
+#: includes/blocks.inc:34
+msgid "Inquiry Menu"
+msgstr ""
+
+#: includes/blocks.inc:41
+msgid "Refining Search"
+msgstr ""
+
+#: includes/blocks.inc:50
+msgid "Pagination Links"
+msgstr ""
+
+#: includes/blocks.inc:62
+msgid "Cart"
+msgstr ""
+
+#: includes/blocks.inc:70
+msgid "Cart page cost totals"
+msgstr ""
+
+#: includes/blocks.inc:78
+msgid "BBS List"
+msgstr ""
+
+#: includes/blocks.inc:86
+msgid "BBS Detail"
+msgstr ""
+
+#: includes/blocks.inc:160
+msgid "maker"
+msgstr ""
+
+#: includes/detail.inc:29
+msgid "Title"
+msgstr ""
+
+#: includes/detail.inc:29 themes/block/bbs_list.tpl.php:6
+msgid "Sender"
+msgstr ""
+
+#: includes/detail.inc:30
+msgid "Bulletin Board"
+msgstr ""
+
+#: includes/form_alter.inc:6
+msgid "Return"
+msgstr ""
+
+#: includes/form_alter.inc:12
+msgid "Go to Confirmation Screen"
+msgstr ""
+
+#: includes/form_alter.inc:20
+msgid "Send Message"
+msgstr ""
+
+#: includes/form_elements.inc:12;40
+msgid "The specified phone number is invalid."
+msgstr ""
+
+#: includes/form_elements.inc:28
+msgid "The specified card number is invalid."
+msgstr ""
+
+#: includes/form_elements.inc:138
+msgid "Year"
+msgstr ""
+
+#: includes/form_elements.inc:155
+msgid "Month"
+msgstr ""
+
+#: includes/forms.inc:56
+msgid "Yes"
+msgstr ""
+
+#: includes/forms.inc:124
+msgid "Email"
+msgstr ""
+
+#: includes/forms.inc:131
+msgid "Passsword"
+msgstr ""
+
+#: includes/forms.inc:142
+msgid "Login"
+msgstr ""
+
+#: includes/forms.inc:180
+msgid "Couldn't get form data from the data source"
+msgstr ""
+
+#: includes/list.inc:27
+msgid "Product search variable is not available"
+msgstr ""
+
+#: themes/block/bbs_list.tpl.php:5
+msgid "Subject"
+msgstr ""
+
+#: themes/block/bbs_list.tpl.php:15;27
+msgid "response"
+msgstr ""
+
+#: themes/block/cart_costs.tpl.php:1
+msgid "Cart Costs"
+msgstr ""
+
+#: themes/block/cart_costs.tpl.php:6
+msgid "Payment Method"
+msgstr ""
+
+#: themes/block/cart_costs.tpl.php:10
+msgid "Delivery Area"
+msgstr ""
+
+#: themes/block/cart_costs.tpl.php:19
+msgid "Applied Filters"
+msgstr ""
+
+#: themes/block/left_search.tpl.php:2;9
+msgid "Search"
+msgstr ""
+
+#: themes/block/main_categories_menu.tpl.php:2
+msgid "商品・カテゴリー"
+msgstr ""
+
+#: themes/block/pagination.tpl.php:2
+msgid "Total Results"
+msgstr ""
+
+#: themes/block/pagination.tpl.php:3
+msgid "Current Page"
+msgstr ""
+
+#: themes/block/pagination.tpl.php:5
+msgid "Previous Page"
+msgstr ""
+
+#: themes/block/pagination.tpl.php:15
+msgid "Next Page"
+msgstr ""
+
+#: themes/detail/complete.tpl.php:2
+msgid "We your request has been processed"
+msgstr ""
+
+#: themes/detail/complete.tpl.php:3
+msgid "This window will automaticall close in a few seconds."
+msgstr ""
+
+#: themes/detail/complete.tpl.php:4
+msgid "You may click this link to close it now"
+msgstr ""
+
+#: themes/detail/form_options.tpl.php:2
+msgid "Login Here"
+msgstr ""
+
+#: themes/detail/form_options.tpl.php:7
+msgid "Not yet a member?"
+msgstr ""
+
+#: themes/detail/form_options.tpl.php:8
+msgid "Proceed and signup - Free!"
+msgstr ""
+
+#: themes/detail/form_options.tpl.php:9
+msgid "Carry on with where you but just have a few more fields included so that you won't have to worry about filling out forms any more."
+msgstr ""
+
+#: themes/detail/form_options.tpl.php:11
+msgid "Proceed without signup"
+msgstr ""
+
+#: themes/detail/form_options.tpl.php:12
+msgid "You can carry on with where you were at and not gain the advantages of signing up!"
+msgstr ""
+
+#: themes/detail/members.tpl.php:7;19
+msgid "Edit Details"
+msgstr ""
+
+#: themes/detail/members.tpl.php:8
+msgid "Edit Address"
+msgstr ""
+
+#: themes/detail/members.tpl.php:21
+msgid "Delete Details"
+msgstr ""
+
+#: themes/elements/costs_table.tpl.php:2
+msgid "Costs"
+msgstr ""
+
+#: themes/list/cart.tpl.php:12
+msgid "Destroy"
+msgstr ""
+
+#: themes/list/search.tpl.php:17
+msgid "Your search produced no results"
+msgstr ""
+
+#: themes/list/search.tpl.php:18
+msgid "Your may refine your search using the paramters below"
+msgstr ""
+
+#: themes/list/search.tpl.php:21
+msgid "Search term/terms"
+msgstr ""
+
+#: themes/list/search.tpl.php:23
+msgid "Main Category"
+msgstr ""
+
+#: themes/list/search.tpl.php:25
+msgid "Price Above"
+msgstr ""
+
+#: themes/list/search.tpl.php:27
+msgid "Price Below"
+msgstr ""
+

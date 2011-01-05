@@ -1,0 +1,367 @@
+# $Id$
+#
+# Japanese translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  takara.module: n/a
+#  takara.install: n/a
+#  takara.info: n/a
+#  includes/blocks.inc: n/a
+#  includes/detail.inc: n/a
+#  themes/block/bbs_list.tpl.php: n/a
+#  includes/form_alter.inc: n/a
+#  includes/form_elements.inc: n/a
+#  includes/forms.inc: n/a
+#  includes/json.inc: n/a
+#  includes/list.inc: n/a
+#  includes/menu.inc: n/a
+#  themes/block/cart_costs.tpl.php: n/a
+#  themes/block/left_search.tpl.php: n/a
+#  themes/block/main_categories_menu.tpl.php: n/a
+#  themes/block/pagination.tpl.php: n/a
+#  themes/block/upgrade.tpl.php: n/a
+#  themes/detail/complete.tpl.php: n/a
+#  themes/detail/form_options.tpl.php: n/a
+#  themes/detail/members.tpl.php: n/a
+#  themes/detail/products.tpl.php: n/a
+#  themes/list/search.tpl.php: n/a
+#  themes/elements/costs_table.tpl.php: n/a
+#  themes/list/cart.tpl.php: n/a
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2010-11-11 14:39+0900\n"
+"PO-Revision-Date: 2010-11-11 14:39+0900\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Japanese <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: takara.module:84
+msgid "There was a server error"
+msgstr "サーバーによるエラーが発生しました。"
+
+#: takara.install:9
+msgid "Welcome to my website"
+msgstr "私のホームページへようこそ"
+
+#: takara.install:10
+msgid "This is the body　please edit."
+msgstr "これはトップページのコンテンツです、編集してください！"
+
+#: takara.info:0
+msgid "Takara Shop System"
+msgstr "タカラショップシステム"
+
+#: takara.info:0
+msgid "Allows you to use the Takara API shopping system"
+msgstr "タカラAPIで運用するショッピングシステム"
+
+#: takara.info:0
+msgid "Takara Modules"
+msgstr "タカラモジュール"
+
+#: includes/blocks.inc:10
+msgid "Header Message"
+msgstr "ヘダーメッセージ"
+
+#: includes/blocks.inc:14
+msgid "Header Cart"
+msgstr "ヘダーカート"
+
+#: includes/blocks.inc:20
+msgid "Main Category Menu"
+msgstr "メインカテゴリーメニュー"
+
+#: includes/blocks.inc:27
+msgid "Customer Menu"
+msgstr "お客様メニュー"
+
+#: includes/blocks.inc:34
+msgid "Left Search"
+msgstr "左側の検索"
+
+#: includes/blocks.inc:41
+msgid "Inquiry Menu"
+msgstr "お問い合わせメニュー"
+
+#: includes/blocks.inc:48
+msgid "Refining Search"
+msgstr "絞り込み検索"
+
+#: includes/blocks.inc:57
+msgid "Search selected items"
+msgstr "絞り込み検索：選択されたアイテム"
+
+#: includes/blocks.inc:66
+msgid "Pagination Links"
+msgstr "ページングのリンク"
+
+#: includes/blocks.inc:78
+msgid "Cart"
+msgstr "カート"
+
+#: includes/blocks.inc:86
+msgid "Cart page cost totals"
+msgstr "カード合計詳細"
+
+#: includes/blocks.inc:94
+msgid "BBS List"
+msgstr "BBSリスト"
+
+#: includes/blocks.inc:102
+msgid "BBS Detail"
+msgstr "BBS詳細"
+
+#: includes/blocks.inc:111
+msgid "Banners"
+msgstr "バナー"
+
+#: includes/blocks.inc:120
+msgid "Upgrade Form"
+msgstr ""
+
+#: includes/blocks.inc:229
+msgid "maker"
+msgstr "メーカー"
+
+#: includes/detail.inc:29
+msgid "Title"
+msgstr "タイトル"
+
+#: includes/detail.inc:29 themes/block/bbs_list.tpl.php:7
+msgid "Sender"
+msgstr "投稿者"
+
+#: includes/detail.inc:30
+msgid "Bulletin Board"
+msgstr "BBS"
+
+#: includes/form_alter.inc:19
+msgid "Return"
+msgstr "戻る"
+
+#: includes/form_alter.inc:35
+msgid "Go to Confirmation Screen"
+msgstr "確認画面へ"
+
+#: includes/form_alter.inc:47;54
+msgid "urikake"
+msgstr "売掛決済"
+
+#: includes/form_alter.inc:55
+msgid "You need to be logged in for credit account payments"
+msgstr "売掛決済を行うにはログインする必要があります"
+
+#: includes/form_alter.inc:67
+msgid "Submit"
+msgstr "送信"
+
+#: includes/form_elements.inc:12;40
+msgid "The specified phone number is invalid."
+msgstr "記入された電話番号は間違っています"
+
+#: includes/form_elements.inc:28
+msgid "The specified card number is invalid."
+msgstr "カード番号は無効です"
+
+#: includes/form_elements.inc:138
+msgid "Year"
+msgstr "年"
+
+#: includes/form_elements.inc:155
+msgid "Month"
+msgstr "月"
+
+#: includes/forms.inc:58
+msgid "Yes"
+msgstr "はい"
+
+#: includes/forms.inc:114
+msgid "Email"
+msgstr "メール"
+
+#: includes/forms.inc:122
+msgid "Password"
+msgstr "パスワード"
+
+#: includes/forms.inc:135
+msgid "Login"
+msgstr "ログイン"
+
+#: includes/forms.inc:198
+msgid "This field is required."
+msgstr "このフィールドの入力は必須です。"
+
+#: includes/json.inc:20
+msgid "Couldn't connect to the data source"
+msgstr "データソースに接続する事はできません。"
+
+#: includes/list.inc:30
+msgid "Product search variable is not available"
+msgstr "商品検索のオブジェクトは存在していません。"
+
+#: includes/menu.inc:105
+msgid "Thank You"
+msgstr "ありがとうございます。"
+
+#: themes/block/bbs_list.tpl.php:6
+msgid "Subject"
+msgstr "件名"
+
+#: themes/block/bbs_list.tpl.php:16;28
+msgid "Reply"
+msgstr "回答"
+
+#: themes/block/cart_costs.tpl.php:3
+msgid "Cart Costs"
+msgstr "カート合計詳細"
+
+#: themes/block/cart_costs.tpl.php:10
+msgid "Select your payment method"
+msgstr "お支払い方法を選択して下さい。"
+
+#: themes/block/cart_costs.tpl.php:14
+msgid "Delivery Area"
+msgstr "お届け先のエリア"
+
+#: themes/block/cart_costs.tpl.php:24
+msgid "Applied Filters"
+msgstr "掛けている送料フィルター"
+
+#: themes/block/left_search.tpl.php:2;13
+msgid "Search"
+msgstr "検索"
+
+#: themes/block/main_categories_menu.tpl.php:3
+msgid "Product"
+msgstr "商品カテゴリー"
+
+#: themes/block/pagination.tpl.php:3
+msgid "Total Results"
+msgstr "トータル件数"
+
+#: themes/block/pagination.tpl.php:4
+msgid "Current Page"
+msgstr "現在のページ"
+
+#: themes/block/pagination.tpl.php:6
+msgid "Previous Page"
+msgstr "前のページ"
+
+#: themes/block/pagination.tpl.php:16
+msgid "Next Page"
+msgstr "次のページ"
+
+#: themes/block/upgrade.tpl.php:3
+msgid "Apply for credit account payment service application"
+msgstr "売掛決済会員の申込手続きへ"
+
+#: themes/detail/complete.tpl.php:2
+msgid "We your request has been processed"
+msgstr "あなたのリクエストを処理致しました。"
+
+#: themes/detail/complete.tpl.php:4
+msgid "This window will automatically close in a few seconds."
+msgstr "このウィンドウは自動的に閉まります。"
+
+#: themes/detail/complete.tpl.php:7
+msgid "You may click this link to close it now"
+msgstr "このリンクを押とすぐにウィンドウが閉じます。"
+
+#: themes/detail/form_options.tpl.php:2
+msgid "Login Here"
+msgstr "ログインはこちら"
+
+#: themes/detail/form_options.tpl.php:11
+msgid "Membership Signup"
+msgstr "会員でないお客様はこちら"
+
+#: themes/detail/form_options.tpl.php:22
+msgid "Carry on with where you but just have a few more fields included so that you won't have to worry about filling out forms any more."
+msgstr ""
+"登録・年会費無料。お問い合わせ・お見積もり・お買い物と同時に会員登録が完了致します。※特別お値引きなどの特典をご用意しております。（次回よりお客様情報入力が不要になります） "
+""
+
+#: themes/detail/form_options.tpl.php:32
+msgid "You can carry on with where you were at and not gain the advantages of signing up!"
+msgstr ""
+"今回、会員登録をご希望でないお客様は、こちらよりお進み下さい。 "
+""
+
+#: themes/detail/members.tpl.php:10;23
+msgid "Edit Details"
+msgstr "情報を編集する"
+
+#: themes/detail/members.tpl.php:12
+msgid "Edit Address"
+msgstr "住所を編集する"
+
+#: themes/detail/members.tpl.php:26
+msgid "Delete Details"
+msgstr "情報を削除する"
+
+#: themes/detail/products.tpl.php:26;34 themes/list/search.tpl.php:38
+msgid "Open Price"
+msgstr "オープンプライス"
+
+#: themes/detail/products.tpl.php:28
+msgid "Quotation request form here!"
+msgstr "お見積もりフォームはこちら"
+
+#: themes/elements/costs_table.tpl.php:9
+msgid "Product Totals"
+msgstr "商品合計"
+
+#: themes/elements/costs_table.tpl.php:12
+msgid "Sub-Total"
+msgstr "小計"
+
+#: themes/elements/costs_table.tpl.php:17
+msgid "Shipping"
+msgstr "送料"
+
+#: themes/elements/costs_table.tpl.php:24
+msgid "Cash on Delivery Charge"
+msgstr "代金引換"
+
+#: themes/elements/costs_table.tpl.php:29
+msgid "Discount"
+msgstr "値引き"
+
+#: themes/elements/costs_table.tpl.php:34
+msgid "Card Charge"
+msgstr "事務手数料"
+
+#: themes/elements/costs_table.tpl.php:39
+msgid "Total"
+msgstr ""
+
+#: themes/elements/costs_table.tpl.php:50
+msgid "Continue Shopping"
+msgstr "買い物を続ける"
+
+#: themes/elements/costs_table.tpl.php:53
+msgid "Update Cart Prices"
+msgstr "再計算"
+
+#: themes/elements/costs_table.tpl.php:56
+msgid "Checkout"
+msgstr "お買い上げ"
+
+#: themes/list/cart.tpl.php:20
+msgid "Delete"
+msgstr "削除"
+
+#: themes/list/search.tpl.php:43
+msgid "Quotation Product"
+msgstr "お見積もり商品"
+
+#: themes/list/search.tpl.php:53
+msgid "Your search produced no results"
+msgstr "ご指定の条件で検索した結果、一致するカテゴリやタイトルはありませんでした。"
+
