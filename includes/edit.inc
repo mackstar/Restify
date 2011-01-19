@@ -4,7 +4,7 @@
 
 function restify_rest_update($controller, $id=1) {
   GLOBAL $json_data;
-  check_delivery();
+  restify_check_delivery();
   
   if ($action == 'login') {
     drupal_goto ('create/login/new', array('destination'=>'edit/'.$controller.'/'.$id));

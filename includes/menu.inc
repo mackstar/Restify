@@ -22,7 +22,7 @@ function restify_menu() {
 	
 	// forms need the extra argument for the id
 	$items['update/%'] = array(
-		'page callback' => 'restify_update',
+		'page callback' => 'restify_rest_update',
 		'page arguments' => array(1),
 		'access callback' => TRUE,
 	);
