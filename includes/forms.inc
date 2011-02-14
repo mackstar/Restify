@@ -74,6 +74,7 @@ function restify_create_confirm_form(&$form_state) {
 
 function restify_create_form_submit($form, &$form_state) {
   global $json_data;
+  $request_url = explode('?', substr(request_uri(), 1));
   
   if (isset($json_data->info->urikake_fail)) {
     header('Location: /thanks/checkout/'.$json_data->info->order);
@@ -83,10 +84,15 @@ function restify_create_form_submit($form, &$form_state) {
   if (isset($_POST['confirm'])&&!is_form_errors()) {
     if (isset($json_data->info->order) && arg(1)!='kessai') {
       $url = '/create/kessai/'.$json_data->info->order;
-    }elseif (isset($json_data->info->order)) {
+    }
+    elseif (isset($json_data->info->order)) {
       $url = '/thanks/checkout/'.$json_data->info->order; 
-    }elseif (isset($json_data->info->mitsumori)) {
+    }
+    elseif (isset($json_data->info->mitsumori)) {
       $url = '/thanks/mitsumoris/'.$json_data->info->mitsumori;
+    }
+    elseif ($request_url[0] == $_GET['destination']) {
+      $url = '/'.$_GET['destination'].'?destination='.$_GET['destination'];
     }
     else{
       $url = isset($_GET['destination'])? '/'.$_GET['destination']:'/thanks';
@@ -96,6 +102,8 @@ function restify_create_form_submit($form, &$form_state) {
     exit;
   }
 }
+
+
 
 function restify_create_confirm_form_submit($form, &$form_state) {
   restify_create_form_submit($form, $form_state);
