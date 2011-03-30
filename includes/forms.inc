@@ -341,6 +341,7 @@ function restify_build_form_elements() {
             '#type' => $type,
             '#title' => t($option[$j]),
             '#attributes' => array('class' => $key),
+            '#default_value' => !empty($selected)? $selected : '',
           );
         }
       }
@@ -356,6 +357,7 @@ function restify_build_form_elements() {
         $form[$current_title]["checkbox_{$label}"][$key] = array(
           '#type' => 'checkbox',
           '#title' => t($option[0]),
+          '#default_value' => !empty($selected)? $selected : '',
         );
       }
 

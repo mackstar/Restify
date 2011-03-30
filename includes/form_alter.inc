@@ -52,7 +52,7 @@ function restify_form_restify_create_form_alter(&$form, &$form_state) {
     }
 
         // If not logged in go to login page
-    if(restify_not_logged_in() && $json_data->order->payment == t('urikake')){
+    if(carty_not_logged_in() && $json_data->order->payment == t('urikake')){
       drupal_set_message(t('You need to be logged in for credit account payments'), 'error'); 
       header('Location: /create/login?destination='.substr(request_uri(), 1));
       exit;

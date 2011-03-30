@@ -55,6 +55,12 @@ class Rest extends TakaraCurl{
   		    }
   		    $key = implode('', $elements);
   		  }
+
+				if(strstr($key, ':')) {
+  		    $elements = explode(':', $key);
+  		    $key = $elements[0];
+  		  }
+
   		  if(is_array($val)) {
   		    $val = implode("-", $val);
   		  }
