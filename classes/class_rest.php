@@ -62,14 +62,20 @@ class Rest extends TakaraCurl{
   		  }
 
   		  if(is_array($val)) {
-  		    $val = implode("-", $val);
+  		    $add = '';
+  		    foreach($val as $array_value) {
+  		      $add.= "{$key}[]=" .urlencode($array_value).'&';
+  		    } 
+  		  }
+  		  else{
+  		    $add = "{$key}=".urlencode($val)."&";
   		  }
   		  
   			if($params["method"]=='post'||$params["_method"]=='delete'||$params["_method"]=='put'){
-  				$this->post .= "{$key}=".urlencode($val)."&";
+  				$this->post .= $add;
   			}
   			else{
-  				$this->url.="{$key}=".urlencode($val).'&';
+  				$this->url.= $add;
   			}
   		}
 		}
